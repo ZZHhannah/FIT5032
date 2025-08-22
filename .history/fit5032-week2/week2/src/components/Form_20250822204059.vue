@@ -224,10 +224,10 @@
   const validateReason = (blur) => {
       const reason = formData.value.reason.trim();
       
-      if (reason.length < 20) {
-          if (blur) errors.value.reason = "Reason must be at least 20 characters long.";
-      } else if (reason.length > 600) {
-          if (blur) errors.value.reason = "Reason must not exceed 600 characters.";
+      if (reason.length < 10) {
+          if (blur) errors.value.reason = "Reason must be at least 10 characters long.";
+      } else if (reason.length > 500) {
+          if (blur) errors.value.reason = "Reason must not exceed 500 characters.";
       } else {
           errors.value.reason = null;
       }
