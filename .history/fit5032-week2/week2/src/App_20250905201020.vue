@@ -1,7 +1,9 @@
 <script setup>
+// Router-only shell; views are rendered below
 </script>
 
 <template>
+  <!-- Centered nav using Bootstrap nav-pills like the screenshots -->
   <div class="container">
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
