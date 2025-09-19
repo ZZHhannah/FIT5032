@@ -43,7 +43,7 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { signOut } from "firebase/auth";
-import { auth } from "../main.js";
+import { auth } from "../init.js";
 
 const router = useRouter();
 const isLoading = ref(false);

@@ -30,7 +30,7 @@
 import { ref, onMounted } from 'vue';
 import { onAuthStateChanged } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
-import { auth, db } from '../main.js';
+import { auth, db } from '../init.js';
 import LibraryRegistrationForm from '@/components/LibraryRegistrationForm.vue';
 
 const user = ref(null);

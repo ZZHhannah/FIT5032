@@ -70,7 +70,7 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { getDoc, doc } from "firebase/firestore";
-import { auth, db } from "../main.js";
+import { auth, db } from "../init.js";
 
 const email = ref("");
 const password = ref("");
